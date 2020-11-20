@@ -3,8 +3,8 @@ const fs = require('fs')
 const baseUrl = 'https://wakatime.com/api/v1'
 const stats_api = '/users/current/stats/last_7_days'
 const width = 25
-// const { WAKATIME_API_KEY: wakatimeApiKey } = process.env
-const wakatimeApiKey = '4c3f47cd-d632-4e15-8dd4-796c8f333d01'
+const { WAKATIME_API_KEY: wakatimeApiKey } = process.env
+
 const bar_styles = new Map([['default', '░▒▓█']])
 const statsUrl = `${baseUrl}${stats_api}?api_key=${wakatimeApiKey}`
 const TEXT_PADING = 20
