@@ -19,7 +19,7 @@ jobs:
         npm install
     - name: Update README
       env:
-        WAKATIME_API_KEY: ${{ secrets.WAKATIME_TOKEN }}
+        WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
       run: |-
         node build_readme.js
     - name: Commit and push if changed
