@@ -4,13 +4,11 @@ const baseUrl = 'https://wakatime.com/api/v1'
 const stats_api = '/users/current/stats/last_7_days'
 const width = 25
 const { WAKATIME_API_KEY: wakatimeApiKey } = process.env
-
 const bar_styles = new Map([['default', '░▒▓█']])
 const statsUrl = `${baseUrl}${stats_api}?api_key=${wakatimeApiKey}`
 const TEXT_PADING = 20
 const fetchApi = async () => {
   const { data } = await axios.get(statsUrl)
-  // console.log('data=====>', data.data.languages)
   if (data.data.languages) {
     const languages = data.data.languages.sort((a, b) => a.percent - b).slice(0, 5)
     const chart = languages.map((language) => {
@@ -39,7 +37,6 @@ const fetchApi = async () => {
 
 const update_README = async (wakaTextChart) => {
   let str = fs.readFileSync('./README.md', { encoding: 'utf-8' })
-  console.debug(str)
   str = str.replace(
     /(<!--START_SECTION:waka-->\n\n```text\n)([\s\S]+)(\n```\n\n<!--END_SECTION:waka-->)/,
     ($0, $1, $2, $3) => {
