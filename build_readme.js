@@ -6,7 +6,7 @@ const width = 25
 const { WAKATIME_API_KEY: wakatimeApiKey } = process.env
 const bar_styles = new Map([['default', '░▒▓█']])
 const statsUrl = `${baseUrl}${stats_api}?api_key=${wakatimeApiKey}`
-const TEXT_PADING = 20
+const TEXT_PADING = 35
 const fetchApi = async () => {
   const { data } = await axios.get(statsUrl)
   if (data.data.languages) {
