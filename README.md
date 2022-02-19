@@ -2,7 +2,8 @@
 
 <!-- ![visitors](https://visitor-badge.glitch.me/badge?page_id=dislfyer.dislfyer) -->
 
-Hi, I'm Dylan, a Frontend Developer 🚀 from China, 🏠 base in shanghai.
+Hi, I'm Dylan, a Frontend Developer 🚀 from China, 🏠 base in shanghai. Now working in Tesla.
+
 <br/>
 <br/>
 
