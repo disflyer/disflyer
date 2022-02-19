@@ -43,6 +43,7 @@ const update_README = async (wakaTextChart) => {
       return `${$1}${wakaTextChart}${$3}`
     },
   )
+  console.log(str)
   fs.writeFileSync('./README.md', str)
 }
 
