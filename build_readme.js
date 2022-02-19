@@ -39,7 +39,7 @@ const update_README = async (wakaTextChart) => {
   let str = fs.readFileSync('./README.md', { encoding: 'utf-8' })
   console.log(str)
   str = str.replace(
-    /(<!--START_SECTION:waka-->\n\n```text\n)([\s\S]+)(\n```\n\n<!--END_SECTION:waka-->)/,
+    /(<!--START_SECTION:waka-->\n\n```text\n)([\s\S]+)?(\n```\n\n<!--END_SECTION:waka-->)/,
     ($0, $1, $2, $3) => {
       return `${$1}${wakaTextChart}${$3}`
     },
