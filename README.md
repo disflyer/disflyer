@@ -2,7 +2,7 @@
 
 <!-- ![visitors](https://visitor-badge.glitch.me/badge?page_id=dislfyer.dislfyer) -->
 
-Hi, I'm Alan, a Software Engineer 🚀 from China, 🏠 base in shanghai. Now working in Tesla.
+Hi, I'm Andy, a Software Engineer 🚀 from China, 🏠 base in shanghai. Now working in Tesla.
 
 <br/>
 <br/>
