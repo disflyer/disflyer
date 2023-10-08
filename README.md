@@ -13,7 +13,8 @@ Hi, I'm Alan, a Software Engineer 🚀 from China, 🏠 base in shanghai. Now wo
 <!--START_SECTION:waka-->
 
 ```text
-
+YAML                                ███████████████████████░░  91.65%
+TypeScript                          ██░░░░░░░░░░░░░░░░░░░░░░░  8.35%
 ```
 
 <!--END_SECTION:waka-->
