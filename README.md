@@ -13,7 +13,8 @@ Hi, I'm Alan, a Software Engineer 🚀 from China, 🏠 base in shanghai. Now wo
 <!--START_SECTION:waka-->
 
 ```text
-
+TypeScript                          ███████████████████▓░░░░░  78.01%
+SSH Key                             █████▒░░░░░░░░░░░░░░░░░░░  21.99%
 ```
 
 <!--END_SECTION:waka-->
