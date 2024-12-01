@@ -2,7 +2,7 @@
 
 <!-- ![visitors](https://visitor-badge.glitch.me/badge?page_id=dislfyer.dislfyer) -->
 
-Hi, I'm Alan, a Software Engineer(Frontend focus), 🏠 Now live in Tokyo Janpan/Suzhou China(current).
+Hi, I'm Alan, a Software Engineer(Frontend focus), 🏠 Now live in Tokyo(long term)/Suzhou(current).
 
 <br/>
 <br/>
