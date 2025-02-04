@@ -13,8 +13,7 @@ Hi, I'm Alan, a Software Engineer(Frontend focus), 🏠 Now live in Tokyo/Suzhou
 <!--START_SECTION:waka-->
 
 ```text
-TypeScript                          ██████████████████░░░░░░░  72.22%
-TOML                                ███████░░░░░░░░░░░░░░░░░░  27.78%
+
 ```
 
 <!--END_SECTION:waka-->
