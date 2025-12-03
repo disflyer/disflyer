@@ -13,7 +13,8 @@ Hi, I'm Alan, a Software Engineer, 🏠 Now live in Tokyo/Suzhou.
 <!--START_SECTION:waka-->
 
 ```text
-
+Python                              ███████████████▓░░░░░░░░░  62.6%
+Markdown                            █████████▒░░░░░░░░░░░░░░░  37.4%
 ```
 
 <!--END_SECTION:waka-->
