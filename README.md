@@ -13,7 +13,7 @@ Hi, I'm Alan, a Software Engineer, 🏠 Now live in Tokyo/Suzhou.
 <!--START_SECTION:waka-->
 
 ```text
-
+undefined
 ```
 
 <!--END_SECTION:waka-->
